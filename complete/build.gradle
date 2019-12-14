@@ -15,6 +15,7 @@ apply plugin: 'io.spring.dependency-management'
 bootJar {
     baseName = 'gs-messaging-stomp-websocket'
     version = '0.1.0'
+    mainClassName = 'hello.Application'
 }
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
